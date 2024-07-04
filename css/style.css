@@ -8,7 +8,11 @@
 .logo-icon {
     height: 50px;
     width: 50px;
-    border: 1px solid;
+    
+    /* for image icon */
+    background-image: url(../assets/logo.jpeg);
+    background-size: cover;
+    border-radius: 50%;
 }
 
 nav>a {
@@ -28,10 +32,38 @@ nav>a {
     justify-content: space-evenly;
 }
 
-.profile-icon {
-    height: 50px;
-    width: 50px;
-    border: 1px solid;
-    border-radius: 100%;
+.profile-item {
+    text-align: center;
 }
+
+.profile-icon {
+    height: 70px;
+    width: 70px;
+    
+    
+}
+
+.tony-stark {
+    background-image: url(../assets/tony.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.pepper-potts {
+    background-image: url(../assets/pepper-potts.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.happy-hogan {
+    background-image: url(../assets/happy-hogan.avif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+
+
 
